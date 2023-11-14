@@ -1,0 +1,15 @@
+word1 word2 word3 !!!4 {
+ word5 word6 ;
+ word7 word8 ;
+}
+word9 {
+ // q11 q12 q13 q14
+ word10 word11 ;
+ // q1 q2 q3 q4 q5 q6   
+ word12 {
+  word13 word14 15 ;
+  w16 w17 w18 19 twenty ;
+ }
+ word21 22 23 ;
+ // q7 q8 q9 qu10
+}

@@ -1,0 +1,37 @@
+[Command?]
+<body> is now the current tag.
+[Command?]
+<header> is now the current tag.
+[Command?]
+<header> value set to 'CS246'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<text> value set to 'Hello'.
+[Command?]
+<text> id set to 'SAY'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'one'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<cut> is now the current tag.
+[Command?]
+<cut> id set to 'CT'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'two'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]

@@ -1,0 +1,91 @@
+[Command?]
+<body> is now the current tag.
+[Command?]
+<header> is now the current tag.
+[Command?]
+<header> value set to 'CS246'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<text> value set to 'Hello'.
+[Command?]
+<text> id set to 'SAY'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'one'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<cut> is now the current tag.
+[Command?]
+<cut> id set to 'CT'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'two'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<body> has the following children:
+- <header>
+- <text>
+- <searchtest>
+- <cut>
+- <searchtest>
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> value set to 'FIRSTOCCUR'.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text id='SAY' value='Hello'>
+    </text>
+    <searchtest id='one' value='FIRSTOCCUR'>
+    </searchtest>
+    <cut id='CT'>
+    </cut>
+    <searchtest id='two'>
+    </searchtest>
+  </body>
+</document>
+[Command?]
+<body> is now the current tag.
+[Command?]
+<cut> is now the current tag.
+[Command?]
+<cut> value set to 'cutting'.
+[Command?]
+<cut> is now in the clipboard.
+<body> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text id='SAY' value='Hello'>
+    </text>
+    <searchtest id='one' value='FIRSTOCCUR'>
+    </searchtest>
+    <searchtest id='two'>
+    </searchtest>
+  </body>
+</document>
+[Command?]

@@ -1,0 +1,20 @@
+#i/bin/bash
+#produceOutput script
+#format ./produceOutputs suite-file program
+
+usage() {
+	echo "${0} suite-file program" >&2
+	exit 1
+}
+
+if [ $# -ne 2 ]; then
+	usage
+fi
+
+for file_name in $(cat ./${1}); do
+	if [ -e ./${file_name}.args ]; then
+		${2} $(cat ${file_name}.args) > ${file_name}.out
+	else
+		${2} > ${file_name}.out
+	fi
+done

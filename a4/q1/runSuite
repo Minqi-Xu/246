@@ -1,0 +1,59 @@
+#!/bin/bash
+#runSuite script
+#format:  ./runSuite suite-file program
+
+usage() {
+	echo "${0} suite-file program" >&2
+	exit 1
+}
+
+if [ $# -ne 2 ]; then
+	usage
+fi
+
+read_and_exist() {
+	echo "${1}.out is not readable or does not exist" >&2
+	exit 2
+}
+
+for file_name in $(cat ./${1}); do
+	if [ ! -r ${file_name}.out ]; then
+		read_and_exist ${file_name}
+	fi
+	
+	temp_output=$(mktemp /tmp/temporaryfile.XXXXXXXX)
+	chmod u=rwx ${temp_output}
+	
+	if [ -e ${file_name}.in ]; then
+		if [ -e ${file_name}.args ]; then
+			${2} $(cat ${file_name}.args) < ${file_name}.in > ${temp_output}
+		else
+			${2} < ${file_name}.in > ${temp_output}
+		fi
+	else
+		if [ -e ${file_name}.args ]; then
+			${2} $(cat ${file_name}.args) > ${temp_output}
+		else
+			${2} > ${temp_output}
+		fi
+	fi
+
+	diff ${temp_output} ${file_name}.out > /dev/null
+	if [ ${?} -ne 0 ]; then
+		echo "Test failed: ${file_name}"
+		echo "Args:"
+		if [ -e ${file_name}.args ]; then
+			cat ${file_name}.args
+		fi
+		echo "Input:"
+		if [ -e ${file_name}.in ]; then
+			cat ${file_name}.in
+		fi
+		echo "Expected:"
+		cat ${file_name}.out
+		echo "Actual:"
+		cat ${temp_output}
+	fi
+	
+	rm ${temp_output}
+done

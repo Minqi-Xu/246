@@ -1,0 +1,33 @@
+add body
+add header
+value CS246
+parent
+add text
+value Hello
+id SAY
+parent
+add searchtest
+id one
+parent
+add cut
+id CT
+parent
+add searchtest
+id two
+parent
+up
+quit
+list
+find searchtest
+value FIRSTOCCUR
+up
+print
+find body
+find cut
+value cutting
+cut
+up
+find body
+up
+print
+quit

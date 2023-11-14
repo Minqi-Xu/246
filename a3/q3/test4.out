@@ -1,0 +1,108 @@
+[Command?]
+<body> is now the current tag.
+[Command?]
+<header> is now the current tag.
+[Command?]
+<header> value set to 'CS246'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<text> value set to 'Hello'.
+[Command?]
+<text> id set to 'SAY'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'one'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<copy> is now the current tag.
+[Command?]
+<copy> id set to 'CP'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> id set to 'two'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<body> has the following children:
+- <header>
+- <text>
+- <searchtest>
+- <copy>
+- <searchtest>
+[Command?]
+<searchtest> is now the current tag.
+[Command?]
+<searchtest> value set to 'FIRSTOCCUR'.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text id='SAY' value='Hello'>
+    </text>
+    <searchtest id='one' value='FIRSTOCCUR'>
+    </searchtest>
+    <copy id='CP'>
+    </copy>
+    <searchtest id='two'>
+    </searchtest>
+  </body>
+</document>
+[Command?]
+<body> is now the current tag.
+[Command?]
+<copy> is now the current tag.
+[Command?]
+<copy> value set to 'copying'.
+[Command?]
+<copy> is now in the clipboard.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<copy> is now the current tag.
+[Command?]
+<willreplace> is now the current tag.
+[Command?]
+<willreplace> value set to 'goingtoreplace'.
+[Command?]
+<copy> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text id='SAY' value='Hello'>
+    </text>
+    <searchtest id='one' value='FIRSTOCCUR'>
+    </searchtest>
+    <copy id='CP' value='copying'>
+      <willreplace value='goingtoreplace'>
+        <copy id='CP' value='copying'>
+        </copy>
+      </willreplace>
+    </copy>
+    <searchtest id='two'>
+    </searchtest>
+  </body>
+</document>
+[Command?]

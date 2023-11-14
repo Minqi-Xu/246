@@ -1,0 +1,51 @@
+[Command?]
+<body> is now the current tag.
+[Command?]
+<header> is now the current tag.
+[Command?]
+<header> value set to 'CS246'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<text> value set to 'Hello'.
+[Command?]
+<text> id set to '911'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text2> is now the current tag.
+[Command?]
+<text2> id set to '911'.
+[Command?]
+<text2> value set to 'HelloNo.2'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text3> is now the current tag.
+[Command?]
+<text3> id set to '911'.
+[Command?]
+<text3> value set to 'HelloWorld'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text id='911' value='Hello'>
+    </text>
+    <text2 id='911' value='HelloNo.2'>
+    </text2>
+    <text3 id='911' value='HelloWorld'>
+    </text3>
+  </body>
+</document>
+[Command?]

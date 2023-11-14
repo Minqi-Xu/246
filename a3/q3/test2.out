@@ -1,0 +1,58 @@
+[Command?]
+<body> is now the current tag.
+[Command?]
+<header> is now the current tag.
+[Command?]
+<header> value set to 'CS246'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<text> is now the current tag.
+[Command?]
+<text> value set to 'Hello'.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<deletelater> is now the current tag.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<body> has the following children:
+- <header>
+- <text>
+- <deletelater>
+[Command?]
+<deletelater> is now the current tag.
+[Command?]
+<deletelater> id set to 'DELETING'.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text value='Hello'>
+    </text>
+    <deletelater id='DELETING'>
+    </deletelater>
+  </body>
+</document>
+[Command?]
+<body> is now the current tag.
+[Command?]
+<deletelater> is now the current tag.
+[Command?]
+<body> is now the current tag.
+[Command?]
+<document> is now the current tag.
+[Command?]
+<document>
+  <body>
+    <header value='CS246'>
+    </header>
+    <text value='Hello'>
+    </text>
+  </body>
+</document>
+[Command?]

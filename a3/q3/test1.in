@@ -1,0 +1,20 @@
+add body
+add header
+value CS246
+parent
+add text
+value Hello
+id 911
+parent
+add text2
+id 911
+value HelloNo.2
+parent
+add text3
+id 911
+value HelloWorld
+parent
+findId 911
+up
+findId 911
+print

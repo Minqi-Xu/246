@@ -1,0 +1,13 @@
+#include "textdisplay.h"
+#include <iostream>
+#include <vector>
+
+TextDisplay::TextDisplay(int n): gridSize{n} {}
+
+void TextDisplay::notify(Subject<Info, State> &whoNotified) override {
+	
+}
+
+std::ostream &  TextDisplay::operator<<(std::ostream &out, const TextDisplay &td) {
+	
+}

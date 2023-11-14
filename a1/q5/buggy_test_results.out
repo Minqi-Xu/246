@@ -1,0 +1,8 @@
+Test failed: test3
+Args:
+Input:
+0
+Expected:
+Enter a positive integer: 0! = 1
+Actual:
+Enter a positive integer: 0! = 0
